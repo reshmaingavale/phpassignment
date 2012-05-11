@@ -1,3 +1,0 @@
-<?php
-header("Location: localhost/php/20redirectpage2.php") ;
-?>

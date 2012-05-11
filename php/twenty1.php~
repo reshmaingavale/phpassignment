@@ -1,0 +1,3 @@
+<?php
+header("Location: 20redirectpage2.php") ;
+?>

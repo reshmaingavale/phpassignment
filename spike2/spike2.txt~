@@ -1,0 +1,77 @@
+1) Read About Security & Security attacks in our application. make an programs on how we can prevent this security attack for following attack. Do this using class make different function for each attack.
+    1.    XSS:- XSS, the attack is basically a type of code injection attack which is made possible by incorrectly validating user data, which usually gets inserted into the page through a web form or using an altered hyperlink. The code injected can be any malicious client-side code, such as JavaScript, VBScript, HTML, CSS, Flash, and others. The code is used to save harmful data on the server or perform a malicious action within the user’s browser.
+
+Without use any condition dont display posted data on browser directly.
+refer: "http://phpmaster.com/php-security-cross-site-scripting-attacks-xss/"
+
+Use htmlentities method where we need to use html tags example in textarea.
+
+    2.    SQL Injection:-
+
+if you want to display result of perticular user and for that you fire select query with getting (id, username etc.) from url. here hacker can hack with putting any number of id, he can get all information of that user. so we should not use url parameters directly in query.
+
+    3.    Spoofed Form Input
+
+E.g 
+<html>    
+    <form action="http://assignment.webonise.com/spike2/spoofedform.php" method="POST">
+<input type="text" name="name" /><br>
+<input type="text" name="address" /><br>
+<input type="text" name="username" /><br>
+<input type="text" name="phone" /><br>
+	    <input name="submit" type="submit" />
+    </form>
+</html>
+
+In this example action is absolute url. attacker can use this url from view-source
+
+    4.    CSRF:- To better understand CSRF attacks let’s look at an example. Let’s say you’re signed in to Facebook, you browse around and in the mean time you open a new window or a new tab and visit another site. It’s a typical scenario. Now, your still signed in at Facebook on the other tab and you visit a site where there’s a CSRF attack implemented. Now the CSRF site actually could send out spam to your Facebook friends or even delete your account, all this using your credentials, because a session is saved when you logged into Facebook (remember, on the other tab).
+
+    5.    File Uploads
+    6.    Including Files
+    7.    eval()
+    8.    Register Globals:- 
+
+A common security problem with PHP is the register_globals setting in PHP's configuration file (php.ini). This setting (which can be either On or Off)
+if register_globals is on, the url http://www.example.com/test.php?admin=3 will declare $id as a global variable with no code required.
+e.g
+if (isset($_POST['password']) && $_POST['password'] == "12345") {
+    $admin = TRUE;
+}
+
+What that would do, with register_globals On, would be to force the creation the variable $admin and automatically set the value to 1, making it equivalent to TRUE. So register_globals On allows the user to inject variables and values into the program!
+
+The best way to avoid it is to make sure that register_globals is set to Off in your php.ini. But as a general coding recommendation, always initialize your variables. The following code makes a small addition to the previous code example, but first sets $admin to FALSE so that the user cannot get administrative privileges except via the conditional statement:
+
+best way:- 
+ $admin = FALSE;
+ if (isset($_POST["password"]) && $_POST["password"] == "12345") {
+     $admin = TRUE;
+ }
+
+
+
+    9.    Magic Quotes:-
+
+it would be good for us to set magic quotes setting off in php.ini. We can check our magic quotes setting with using "get_magic_quotes_gpc()" function.Notice that there is a backslash before all of those risky characters we talked about earlier. After magic quotes:
+
+    A backslash \ becomes \\
+    A quote ' becomes \'
+    A double-quote " becomes \"
+
+OR in on mode you can use stripslashesh function.
+e.g:
+
+
+
+   10.    Error Reporting:-
+
+after set error_reporting on , the errors and warning goes to display on browser. so attacker can hack with knowing tablename and query which has display in warning and errors. so good thing that set error reporting off on server.
+
+   11.    Plain Text Passwords
+2) Real About PEAR & PECL. check the PEAr packages & list down them with there uses.
+3) Create small programs for
+    1) Interface
+    2) Abstract Classes
+    3) Polymorphism
+4) Read about SPL (Standard PHP Library)

@@ -1,0 +1,10 @@
+<script>
+document.cookie="JavaScript Kit";
+
+</script>
+<?php
+
+echo "<pre>";
+print_r($_POST);
+
+?>

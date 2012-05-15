@@ -1,0 +1,9 @@
+<?php
+session_start();
+  $_SESSION['foo'] = "bar";
+$foo = $_SESSION['foo'];
+$foo = "blah";
+
+echo $_SESSION['foo']; 
+
+?>

@@ -1,0 +1,31 @@
+1. Authentication:- Creating an authentication system.
+
+2. Caching:-Framework for caching of arbitrary data.
+
+3. Configuration:- Your configuration's swiss-army knife.
+
+4. Console
+
+5. Calendar:- A package for building Calendar data structures
+
+6. Date and Time:- A package for building Calendar data structures (irrespective of output)
+
+7.File Formats:- Archive file management class
+
+8.HTML:- PHP and JavaScript AJAX library
+
+9.HTTP:- The HTTP class is a class with static methods for doing
+miscellaneous HTTP related stuff like date formatting,
+language negotiation or HTTP redirection.
+
+10. Mail :- Class that provides multiple interfaces for sending emails
+
+11. Numbers:- 
+	
+	Numbers_Roman:- Provides methods for converting to and from Roman Numerals.
+        Numbers_Words:- The PEAR Numbers_Words package provides methods for spelling numerals in words.
+
+* PECL(php extention community library) is a repository for PHP Extensions, providing a directory of all known extensions and hosting facilities for downloading and development of PHP extensions.
+
+The packaging and distribution system used by PECL is shared with its sister, PEAR. 
+

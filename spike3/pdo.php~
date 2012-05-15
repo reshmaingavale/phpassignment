@@ -1,0 +1,17 @@
+<?php
+
+class pdo{
+
+function Disp(){
+
+echo "Inside the Base class<br/>";}}
+
+
+
+$obj=new pdo();
+
+$obj->Disp();
+
+
+
+?>

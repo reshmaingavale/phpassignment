@@ -1,0 +1,20 @@
+.frp-clear {
+    clear: both;
+    float: none;
+}
+
+.frp-widget .frp-news {
+    list-style: none;
+}
+
+.news-widget-title {
+    font-weight: bold;
+}
+
+.news-widget-date {
+    text-align: right;
+}
+
+.frp-all-category-news-footer {
+    text-align: right;
+}

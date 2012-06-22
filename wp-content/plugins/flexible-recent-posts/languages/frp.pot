@@ -1,0 +1,121 @@
+# Copyright (C) 2012 Flexible Recent Posts
+# This file is distributed under the same license as the Flexible Recent Posts package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible Recent Posts 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/flexible-recent-posts\n"
+"POT-Creation-Date: 2012-04-27 09:56:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  plugin.pot (Flexible Recent Posts 0.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: class-recent-posts-widget.php:7
+msgid "Flexible Recent Posts"
+msgstr ""
+
+#: class-recent-posts-widget.php:8
+msgid "Displays recent posts using flexible template system"
+msgstr ""
+
+#: class-recent-posts-widget.php:25
+msgid "All news"
+msgstr ""
+
+#: templates/recent-posts-form.php:2 templates/recent-posts-form.php:38
+msgid "Title"
+msgstr ""
+
+#: templates/recent-posts-form.php:6
+msgid "Number of posts to show:"
+msgstr ""
+
+#: templates/recent-posts-form.php:9
+msgid "All posts link"
+msgstr ""
+
+#: templates/recent-posts-form.php:10
+msgid ""
+"Settings of the links to all posts page, that may be displayed near the "
+"widget title or after all posts"
+msgstr ""
+
+#: templates/recent-posts-form.php:10 templates/recent-posts-form.php:26
+#: templates/recent-posts-form.php:35
+msgid "Help"
+msgstr ""
+
+#: templates/recent-posts-form.php:13
+msgid "Link title"
+msgstr ""
+
+#: templates/recent-posts-form.php:17
+msgid "Static link"
+msgstr ""
+
+#: templates/recent-posts-form.php:22
+msgid "Show near the widget title"
+msgstr ""
+
+#: templates/recent-posts-form.php:24
+msgid "Show after all posts"
+msgstr ""
+
+#: templates/recent-posts-form.php:26
+msgid "Categories"
+msgstr ""
+
+#: templates/recent-posts-form.php:26
+msgid "Posts categories"
+msgstr ""
+
+#: templates/recent-posts-form.php:29
+msgid "All categories"
+msgstr ""
+
+#: templates/recent-posts-form.php:35
+msgid "Template"
+msgstr ""
+
+#: templates/recent-posts-form.php:35
+msgid "Template for each post"
+msgstr ""
+
+#: templates/recent-posts-form.php:43
+msgid "Excerpt"
+msgstr ""
+
+#: templates/recent-posts-form.php:48
+msgid "Date"
+msgstr ""
+
+#: templates/recent-posts-form.php:53
+msgid "Link"
+msgstr ""
+
+#: templates/recent-posts-form.php:58
+msgid "Thumbnail"
+msgstr ""
+
+#: templates/single-post-template.php:2
+msgid "read more"
+msgstr ""
+
+#. #-#-#-#-#  plugin.pot (Flexible Recent Posts 0.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Flexible Recent Posts 0.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://steelrat.info/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Displays recent posts using flexible template system."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SteelRat"
+msgstr ""

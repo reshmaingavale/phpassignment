@@ -77,6 +77,7 @@
 				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</hgroup>
 
+
 			<?php
 				// Check to see if the header image has been removed
 				$header_image = get_header_image();
@@ -99,9 +100,8 @@
                 <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
             </nav><!-- #access -->
 <!-- Reshma added this function -->
-                    <?php dynamic_sidebar( 'Static widget Area' ); ?>
-                    <?php dynamic_sidebar( 'Showcase Sidebar' ); ?>
 
+                    <?php dynamic_sidebar( 'Static widget Area' ); ?>
 
 			<?php endif; // end check for removed header image ?>
 
